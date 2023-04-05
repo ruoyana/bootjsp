@@ -162,8 +162,8 @@
 
 
             <td>
-                <img alt="" height="50px" width="50px"
-                     src="xiazaizai?path=<%=java.net.URLEncoder.encode(String.valueOf(request.getAttribute("hs")))%>&grs=<%=java.net.URLEncoder.encode(String.valueOf(request.getAttribute("grs")))%>">
+<%--                <img alt="" height="50px" width="50px"--%>
+<%--                     src="xiazaizai?path=<%=java.net.URLEncoder.encode(String.valueOf(request.getAttribute("hs")))%>&grs=<%=java.net.URLEncoder.encode(String.valueOf(request.getAttribute("grs")))%>">--%>
             </td>
 
         </tr>
