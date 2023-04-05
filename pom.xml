@@ -15,7 +15,7 @@
     <name>bootjsp</name>
     <description>bootjsp</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
 <!--        <dependency>-->
@@ -31,10 +31,10 @@
 
 
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>  <!-- freemarker需要依赖才行-->
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-freemarker</artifactId>  &lt;!&ndash; freemarker需要依赖才行&ndash;&gt;-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -130,9 +130,10 @@
 
         <dependency>
             <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>  <!-- mysql 驱动-->
-            <version>8.0.22</version>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.25</version>
         </dependency>
+  
 
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>   <!-- mybatis 依赖 jar包-->
