@@ -1,0 +1,29 @@
+spring:
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+
+  datasource:
+        url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+        username: root
+        password: 12345678
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+
+
+#mybatis:
+#    mapper-locations: classpath:/shitilei/*.xml
+#    type-aliases-package: com.mycs.dao
+
