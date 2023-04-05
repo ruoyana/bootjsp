@@ -21,7 +21,9 @@ spring:
 
 
 
+
 #mybatis:
 #    mapper-locations: classpath:/shitilei/*.xml
 #    type-aliases-package: com.mycs.dao
-
+server:
+  port: 8081
