@@ -11,9 +11,13 @@ spring:
     view:
       prefix: /WEB-INF/
       suffix: .jsp
+
   messages:
     basename: i18n/messages
     encoding: UTF-8
+
+server:
+  port: 8082
 
 
 
@@ -25,5 +29,4 @@ spring:
 #mybatis:
 #    mapper-locations: classpath:/shitilei/*.xml
 #    type-aliases-package: com.mycs.dao
-server:
-  port: 8081
+
