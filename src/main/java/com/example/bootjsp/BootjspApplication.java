@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
 
 
-@EnableAutoConfiguration(exclude = DataSourceAutoConfiguration.class)
+@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 //@Import(FdfsClientConfig.class)   //#导入FastDFS-Client组件
 @ComponentScan(basePackages = {"com.mycs,com.example.bootjsp"})
 @MapperScan(basePackages ={"com.mycs.dao"})
