@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>bootjsp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>bootjsp</name>
     <description>bootjsp</description>
     <properties>
