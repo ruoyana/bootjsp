@@ -181,10 +181,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.1.1.RELEASE</version>
-                <configuration>
-                    <mainClass>start.Application</mainClass>
-                </configuration>
+                <version>2.7.4</version>
             </plugin>
         </plugins>
 
@@ -204,20 +201,21 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>**/*.*</include>
+                    <include>**/*.yml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
                 </includes>
                 <filtering>false</filtering>
             </resource>
+
 
             <resource>
                 <directory>src/main/webapp</directory>
-                <targetPath>src/main/resources</targetPath>
+                <targetPath>resources</targetPath>
                 <includes>
                     <include>**/**</include>
                 </includes>
-                <filtering>false</filtering>
             </resource>
-
         </resources>
     </build>
 
