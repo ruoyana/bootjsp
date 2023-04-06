@@ -211,10 +211,11 @@
 
             <resource>
                 <directory>src/main/webapp</directory>
-                <targetPath>resources</targetPath>
+                <targetPath>META-INF/resources</targetPath>
                 <includes>
                     <include>**/**</include>
                 </includes>
+                <filtering>false</filtering>
             </resource>
         </resources>
     </build>
